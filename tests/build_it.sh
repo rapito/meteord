@@ -1,5 +1,5 @@
 #!/bin/bash
-docker build -t meteorhacks/meteord:base ../base
-docker build -t meteorhacks/meteord:onbuild ../onbuild
-docker build -t meteorhacks/meteord:devbuild ../devbuild
-docker build -t meteorhacks/meteord:binbuild ../binbuild
+docker build -t rapito/meteord:base ../base
+docker build -t rapito/meteord:onbuild ../onbuild
+docker build -t rapito/meteord:devbuild ../devbuild
+docker build -t rapito/meteord:binbuild ../binbuild
